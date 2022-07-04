@@ -1,0 +1,29 @@
+.parrafo1{
+    display: flex;
+    align-items: center;
+    background-color: $bg6;
+    border-radius: 7px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.parrafo2{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: $bg5;
+    color: $color4;
+    align-items: center;
+    margin: 20px;
+    border-radius: 7px;
+}
+
+.parrafo3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg6;
+    border-radius: 7px;
+    padding: 30px 20px;
+    margin: 20px;
+}

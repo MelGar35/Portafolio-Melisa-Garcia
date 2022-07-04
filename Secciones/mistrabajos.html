@@ -5,13 +5,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords" content="portafolio, landing Pages, desarrollo web, web development, sitio web, diseño web, proyectos realizados, trabajos entregados, paginas web, bootstrap, scss, sass, flexbox, grid.">
-  <meta name="description"
-    content="Portafolio de Melisa Garcia, Desarrolladora Web. Consultame por tu sitio web.">
-  <!-- Bootstrap only -->
+  <meta name="keywords"
+    content="portfolio, landing Pages, desarrollo web, web development, sitio web, diseño web, proyectos realizados, trabajos entregados, paginas web, bootstrap, scss, sass, flexbox, grid.">
+  <meta name="description" content="Portfolio de Melisa Garcia, Desarrolladora Web. Consultame por tu sitio web.">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&family=BIZ+UDGothic&family=Mingzat&family=Raleway:ital,wght@1,100&family=Source+Code+Pro:wght@300&display=swap"
+    rel="stylesheet">
+  <!-- bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <!-- CSS only -->
+  <!-- css -->
   <link rel="stylesheet" href="../css/style.css">
   <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 
@@ -20,7 +23,7 @@
 </head>
 
 <body>
-
+  <!-- inicio menu -->
   <header class="colorHeader text-light p-3 text-center">
 
     <nav class="navbar navbar-expand-lg">
@@ -55,45 +58,53 @@
       </div>
     </nav>
   </header>
+  <!-- cierre menu -->
   <br><br>
-  <h5 class="text-center p-2">
-    Proyectos realizados en el curso de Desarrollo Web.
-  </h5>
-  <br>
-  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="../img/Trabajo1.jpg" class="d-block" alt="proyectoMelisa1">
+  <!-- inicio main -->
+  <main>
+    <h3 class="text-center p-2">
+     Proyectos realizados en el curso de Desarrollo Web.
+    </h3>
+    <br>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../img/Trabajo1.jpg" class="d-block" alt="proyectoMelisa1">
+        </div>
+        <div class="carousel-item">
+          <img src="../img/Trabajo2.jpg" class="d-block" alt="proyectoMelisa2">
+        </div>
+        <div class="carousel-item">
+          <img src="../img/Trabajo3.jpg" class="d-block" alt="proyectoMelisa3">
+        </div>
       </div>
-      <div class="carousel-item">
-        <img src="../img/Trabajo2.jpg" class="d-block" alt="proyectoMelisa2">
-      </div>
-      <div class="carousel-item">
-        <img src="../img/Trabajo3.jpg" class="d-block" alt="proyectoMelisa3">
-      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  <br>
-  <section class="misTrabajos p-3 text-center">
-    <p>Estos son algunos de mis proyectos que hice con mucha ilusión y empeño. <br>
-      Los mismos fueron desarrollados en el transcurso de las clases de Coderhouse y todos son responsive. <br>
-      Para llevarlos a cabo utilicé html, css, flexbox, bootstrap y sass entre otros. <br>
-    Seguramente al finalizar la carrera mis conocimientos me permitan hacer proyectos más lindos y profesionales, pero estos van a quedar grabados en mi memoria siempre por ser los primeros.</p>
+  </main>
+    <br>
+  <!-- cierre main-->
+
+  <!-- inicio seccion-->
+    <section class="misTrabajos p-3 text-center">
+      <p>Para llevarlos a cabo utilicé html, css, flexbox, bootstrap y sass entre otros. <br>
+        Seguramente al finalizar la carrera mis conocimientos me permitan hacer proyectos más lindos y profesionales,
+        pero estos van a quedar grabados en mi memoria siempre por ser los primeros.</p>
   </section>
+  <!-- cierre seccion-->
   <br><br><br>
   <br><br>
-
-
-  <div class="row">
-    <footer class="col-lg-12 col-md-12 col-sm-12 colorFooter p-3 text-center">
+  <!-- inicio footer -->
+  <footer class="col-lg-12 col-md-12 col-sm-12 colorFooter p-3 text-center">
+    <div class="row">
 
       <div class="iconos-sociales">
 
@@ -118,17 +129,19 @@
             src=" https://1.bp.blogspot.com/-2JwTJZxg1AU/YPhkfB0DdjI/AAAAAAAAA1c/tDKdU6tS0A0lt4YegGUVd7k-9hguYz82ACPcBGAYYCw/s0/Twitter-icono.png"
             title="Sígueme en Twitter" /></a>
       </div>
-      <br>
+      <br><br>
       <h6><strong> Copyright* Todos los derechos reservados</strong></h6>
 
-    </footer>
-  </div>
-  </div>
 
-  <!-- JavaScript Bundle with Popper -->
+    </div>
+    </div>
+  </footer>
+  <!-- cierre footer -->
+
+  <!-- javaScript bundle with popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
 
 </body>
 

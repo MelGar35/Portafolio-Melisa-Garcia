@@ -1,0 +1,19 @@
+
+.contenedorMapa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mapa{
+    width: 600px;
+    height: 600px;
+}
+
+
+.form{
+    background-color:$bg4;
+    color: $color4;
+    border-radius: 7px;
+    margin: 20px; 
+}
