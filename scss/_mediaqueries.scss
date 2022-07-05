@@ -1,6 +1,106 @@
 
+@media (max-width: 320px) {
 
-@media (max-width: 375px) {
+.colorHeader h1 {
+    display: none;
+}
+    
+.tituloIndex{
+    font-size: medium;
+}
+
+.tituloPropuestas{
+    font-size: medium;
+}
+
+.tituloSobreMi{
+    font-size: medium;
+}
+
+.tituloMisTrabajos{
+    font-size: medium;
+}
+
+.tituloContacto{
+    font-size: medium;
+}
+
+.tituloContacto2{
+    font-size: medium;
+}
+
+.tituloContacto3{
+    font-size: medium;
+}
+
+.mapa{
+    width: 80px;
+    height: 80px;
+}
+
+.textoHome{
+     font-size: small;
+}
+
+.imagenHome{
+    width: 220px;
+}
+
+.form{
+    display: inline-block;
+    margin: 1px;
+    padding: 10px;
+    font-size: small;
+}
+
+.parrafo1{
+    display: inline-block;
+    font-size: small;
+}
+    
+.imagenParrafo1{
+    width: 160px;
+    height: 190px;
+}
+
+.parrafo2{
+    display: inline-block;
+    font-size: small;
+}
+    
+.imagenParrafo2{
+    width: 170px;
+    height: 170px;
+    padding: 10px 1px;
+}
+
+.parrafo3{
+    display: inline-block;
+    font-size: small;
+}
+
+.imagenParrafo3{
+    width: 170px;
+    height: 170px;
+    padding: 10px 1px;
+}
+
+.misTrabajos{
+    display: inline-block;
+    font-size: small;
+}
+        
+.carousel-inner img{
+    width: 70%;
+}
+
+.datosContacto{
+    font-size: small;
+}
+}
+    
+
+@media (max-width: 430px) {
 
 .colorHeader h1 {
     display: none;
@@ -36,4 +136,22 @@
     width: 100%;
 }
 }
-    
+
+@media (max-width: 768px) {
+
+.colorHeader h1 {
+    display: none;
+}
+
+.imagenParrafo2{
+    width: 200px;
+    height: 200px;
+    padding: 10px 1px;
+}
+
+.imagenParrafo3{
+    width: 190px;
+    height: 190px;
+    padding: 10px 1px;
+}
+}

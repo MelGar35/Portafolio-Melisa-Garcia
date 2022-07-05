@@ -27,3 +27,43 @@
     padding: 30px 20px;
     margin: 20px;
 }
+
+.imagenParrafo1{
+    transition: width 1s;
+    transition: height 1s;
+    width: 220px;
+    height: 220px;
+    
+}
+.imagenParrafo1:hover{
+    width: 400px;
+    height: 400px;
+}
+
+.imagenParrafo2{
+    transition: width 1s;
+    transition: height 1s;
+    width: 220px;
+    height: 220px;
+    
+    
+}
+
+.imagenParrafo2:hover{
+    width: 300px;
+    height:300px;
+}
+
+.imagenParrafo3{
+    transition: width 1s;
+    transition: height 1s;
+    width: 220px;
+    height: 220px;
+    
+    
+}
+
+.imagenParrafo3:hover{
+    width: 300px;
+    height:300px;
+}
