@@ -5,16 +5,22 @@
     justify-content: center;
     align-items: center;
 }
+
 .mapa{
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
 }
 
 
 .form{
-    background-color:$bg5;
+    background-color:$bg2;
     color: $color4;
     border-radius: 7px;
-    margin: 1px;
-    padding: 10px; 
+    margin: auto;
+    padding: 10px;
+    width: 45%; 
+}
+
+.datosContacto{
+    padding: 10px;
 }

@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(229, 246, 247);
+  background-color: rgb(240, 241, 241);
   font-family: "Mingzat", sans-serif;
   overflow-x: hidden;
 }
@@ -30,7 +30,7 @@ body {
 }
 
 ul li a:hover {
-  background-color: rgb(105, 103, 101);
+  background-color: rgb(126, 124, 122);
   color: rgb(238, 241, 245);
   border-radius: 7px;
 }
@@ -43,8 +43,12 @@ ul li a:hover {
   transform: translate(0px, -5px);
 }
 
+.copyright {
+  padding-top: 10px;
+}
+
 .misTrabajos {
-  background-color: rgb(105, 103, 101);
+  background-color: rgb(126, 124, 122);
   justify-content: center;
   border-radius: 7px;
   margin: 10px 10px;
@@ -59,22 +63,27 @@ ul li a:hover {
 }
 
 .mapa {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
 }
 
 .form {
-  background-color: rgb(105, 103, 101);
+  background-color: rgb(124, 171, 204);
   color: rgb(238, 241, 245);
   border-radius: 7px;
-  margin: 1px;
+  margin: auto;
+  padding: 10px;
+  width: 45%;
+}
+
+.datosContacto {
   padding: 10px;
 }
 
 .textoHome {
-  background-color: rgb(105, 103, 101);
+  background-color: rgb(126, 124, 122);
   border-radius: 7px;
-  margin-top: 20px;
+  margin-top: 15px;
   color: rgb(238, 241, 245);
 }
 
@@ -83,18 +92,18 @@ ul li a:hover {
   align-items: center;
   background-color: rgb(255, 255, 255);
   border-radius: 7px;
-  padding: 20px;
-  margin: 20px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .parrafo2 {
   display: flex;
   justify-content: center;
-  padding: 20px;
-  background-color: rgb(105, 103, 101);
+  padding: 10px;
+  background-color: rgb(126, 124, 122);
   color: rgb(238, 241, 245);
   align-items: center;
-  margin: 20px;
+  margin: 10px;
   border-radius: 7px;
 }
 
@@ -104,8 +113,8 @@ ul li a:hover {
   align-items: center;
   background-color: rgb(255, 255, 255);
   border-radius: 7px;
-  padding: 30px 20px;
-  margin: 20px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .imagenParrafo1 {
@@ -113,6 +122,7 @@ ul li a:hover {
   transition: height 1s;
   width: 220px;
   height: 220px;
+  padding: 5px;
 }
 
 .imagenParrafo1:hover {
@@ -125,6 +135,7 @@ ul li a:hover {
   transition: height 1s;
   width: 220px;
   height: 220px;
+  padding: 5px;
 }
 
 .imagenParrafo2:hover {
@@ -137,6 +148,7 @@ ul li a:hover {
   transition: height 1s;
   width: 220px;
   height: 220px;
+  padding: 5px;
 }
 
 .imagenParrafo3:hover {
@@ -191,9 +203,6 @@ ul li a:hover {
   }
 
   .form {
-    display: inline-block;
-    margin: 1px;
-    padding: 10px;
     font-size: small;
   }
 
@@ -256,6 +265,7 @@ ul li a:hover {
     display: inline-block;
     margin: 1px;
     padding: 1px;
+    width: 90%;
   }
 
   .parrafo1 {
@@ -281,6 +291,26 @@ ul li a:hover {
 @media (max-width: 768px) {
   .colorHeader h1 {
     display: none;
+  }
+
+  .form {
+    width: 80%;
+  }
+
+  .parrafo1 {
+    display: inline-block;
+  }
+
+  .parrafo2 {
+    display: inline-block;
+  }
+
+  .parrafo3 {
+    display: inline-block;
+  }
+
+  .misTrabajos {
+    display: inline-block;
   }
 
   .imagenParrafo2 {

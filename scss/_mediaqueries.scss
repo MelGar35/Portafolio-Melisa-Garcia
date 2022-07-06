@@ -40,6 +40,7 @@
 
 .textoHome{
      font-size: small;
+     
 }
 
 .imagenHome{
@@ -47,15 +48,13 @@
 }
 
 .form{
-    display: inline-block;
-    margin: 1px;
-    padding: 10px;
     font-size: small;
 }
 
 .parrafo1{
     display: inline-block;
     font-size: small;
+
 }
     
 .imagenParrafo1{
@@ -115,6 +114,7 @@
     display: inline-block;
     margin: 1px;
     padding: 1px;
+    width: 90%;
 }
 .parrafo1{
     display: inline-block;
@@ -137,10 +137,31 @@
 }
 }
 
+
 @media (max-width: 768px) {
 
 .colorHeader h1 {
     display: none;
+}
+
+.form{
+    width: 80%;
+}
+
+.parrafo1{
+    display: inline-block;
+}
+    
+.parrafo2{
+    display: inline-block;
+}
+    
+.parrafo3{
+    display: inline-block;
+}
+    
+.misTrabajos{
+    display: inline-block;
 }
 
 .imagenParrafo2{
